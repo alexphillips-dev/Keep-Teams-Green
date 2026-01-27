@@ -1,0 +1,16 @@
+﻿{
+    "UpdatedUtc":  "2026-01-27T14:33:41.5652721Z",
+    "Status":  "Stopped",
+    "Interval":  60,
+    "Toggles":  0,
+    "LastToggle":  "1/27/2026 9:25 AM",
+    "NextToggle":  "N/A",
+    "NextToggleIn":  "N/A",
+    "PauseUntil":  "N/A",
+    "Schedule":  "Off",
+    "SafeMode":  "Off",
+    "Keyboard":  "Caps:Off Num:On Scroll:On",
+    "ActiveProfile":  "Default",
+    "HotkeyStatus":  "Registered (3)",
+    "DebugMode":  "Off"
+}
