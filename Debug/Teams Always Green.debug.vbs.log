@@ -1,8 +1,0 @@
-At C:\Users\alexanderphillips\OneDrive - Arch Resources, Inc\Documents\Teams Always Green\Teams Always Green.ps1:450 
-char:46
-+     $assetName = "Teams-Always-Green.ps1"    $release = Get-LatestRel ...
-+                                              ~~~~~~~~
-Unexpected token '$release' in expression or statement.
-    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
-    + FullyQualifiedErrorId : UnexpectedToken
- 
