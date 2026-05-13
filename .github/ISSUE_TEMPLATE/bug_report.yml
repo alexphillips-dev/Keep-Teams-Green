@@ -1,0 +1,63 @@
+name: Bug report
+description: Report something broken in the bare-bones tray app.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for issues with the tray app, hidden launcher, Scroll Lock tap behavior, or logs.
+  - type: textarea
+    id: bug
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected instead.
+      placeholder: The app did X, but I expected Y.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps that trigger the issue.
+      placeholder: |
+        1. Double-click Teams Always Green.VBS
+        2. Right-click the tray icon
+        3. Select ...
+    validations:
+      required: true
+  - type: dropdown
+    id: launch-method
+    attributes:
+      label: How did you launch it?
+      options:
+        - Teams Always Green.VBS
+        - app/runtime/Teams Always Green.ps1
+        - Startup shortcut
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: "Example: Windows 10 22H2"
+    validations:
+      required: true
+  - type: input
+    id: powershell-version
+    attributes:
+      label: PowerShell version
+      placeholder: "Run: $PSVersionTable.PSVersion"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Logs are under %LOCALAPPDATA%\TeamsAlwaysGreen\Logs. Paste only relevant lines and remove anything private.
+      render: text
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add screenshots or other details that may help.
+

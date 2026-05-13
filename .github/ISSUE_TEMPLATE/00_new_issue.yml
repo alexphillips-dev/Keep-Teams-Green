@@ -1,0 +1,42 @@
+name: General issue
+description: Report anything that does not fit the other issue forms.
+title: "[General]: "
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Teams Always Green is now a bare-bones Windows tray app with no installer, updater, settings UI, profiles, or scheduled work-hours logic.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened, or what do you want to discuss?
+      placeholder: Describe the issue clearly.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Tray app
+        - VBS launcher
+        - Scroll Lock tap behavior
+        - Logs
+        - README/documentation
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: "Example: Windows 11 23H2"
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Include screenshots, exact messages, or log snippets if helpful.
+      placeholder: Add any extra context here.
+

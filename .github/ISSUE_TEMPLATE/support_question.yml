@@ -1,0 +1,40 @@
+name: Support question
+description: Ask for help running or troubleshooting the bare-bones app.
+title: "[Support]: "
+labels: ["question", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This version does not include an installer. Launch it with `Teams Always Green.VBS` or run the PowerShell script directly.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      placeholder: What are you trying to do?
+    validations:
+      required: true
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Starting the app
+        - Startup shortcut
+        - Tray menu
+        - Logs
+        - Scroll Lock behavior
+        - Uninstall/removal
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: "Example: Windows 11 23H2"
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What have you tried?
+      placeholder: List any commands, clicks, or troubleshooting steps you already tried.

@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest a small improvement for the bare-bones tray app.
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This project is intentionally minimal. Feature requests should fit the bare-bones tray app direction.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      placeholder: Describe the workflow or annoyance this would improve.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      placeholder: Describe the simplest version of the feature.
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: Which part of the current app would this affect?
+      options:
+        - Tray menu
+        - Launch behavior
+        - Scroll Lock tap behavior
+        - Logging
+        - README/documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      placeholder: Is there a simpler workaround?
+
