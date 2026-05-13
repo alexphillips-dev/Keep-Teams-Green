@@ -11,6 +11,10 @@
 
 Teams Always Green is a bare-bones Windows tray app that keeps Microsoft Teams presence active by periodically tapping Scroll Lock without leaving Scroll Lock enabled.
 
+## Purpose
+
+Teams Always Green is not designed for malicious use or to help anyone avoid work. It was created after experiencing a workplace where Microsoft Teams presence was treated as a proxy for productivity while working from home. Even when the work was getting done, an automatic `Away` status could lead to unnecessary questions or assumptions. This app is meant to reduce that kind of false signal by keeping presence steady during legitimate work, meetings, reading, calls, and other hands-off tasks.
+
 ## What It Does
 
 - Runs quietly from the Windows notification area.
