@@ -25,6 +25,9 @@ secrets/
 
 # Local-only dev helpers
 .githooks/
+SmokeTest-HiddenLaunch.cmd
+Start-TeamsAlwaysGreen-Friday.cmd
+Start-TeamsAlwaysGreen-Friday.vbs
 
 # OS junk
 .DS_Store

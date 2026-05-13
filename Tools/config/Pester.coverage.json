@@ -1,8 +1,0 @@
-{
-  "minCoveragePercent": 10.0,
-  "paths": [
-    "app/runtime/Core/*.ps1",
-    "app/runtime/Features/*.ps1"
-  ]
-}
-
